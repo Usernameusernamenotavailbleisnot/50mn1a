@@ -1,0 +1,24 @@
+{
+    "features": {
+        "claimFaucet": true,
+        "deployContracts": true,
+        "transferToTeam": true
+    },
+    "deployments": {
+        "confidentialERC20Count": 1,
+        "nftCount": 1,
+        "memeTokenCount": 1
+    },
+    "transfers": {
+        "count": 3,
+        "amount": "0.00001"
+    },
+    "delays": {
+        "min": 3000,
+        "max": 15000
+    },
+    "retry": {
+        "maxAttempts": 3,
+        "delayBetweenRetries": 5000
+    }
+}
